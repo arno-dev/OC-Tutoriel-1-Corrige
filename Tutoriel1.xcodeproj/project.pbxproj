@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBEB1611CE18DFD0087D7EA /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEB15F1CE18DFD0087D7EA /* ModalViewController.m */; };
+		0DBEB1621CE18DFD0087D7EA /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEB1601CE18DFD0087D7EA /* ModalViewController.xib */; };
 		0DF1D8B61CD086BE00A87BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1D8B51CD086BE00A87BFF /* main.m */; };
 		0DF1D8B91CD086BE00A87BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1D8B81CD086BE00A87BFF /* AppDelegate.m */; };
 		0DF1D8C11CD086BE00A87BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1D8C01CD086BE00A87BFF /* Assets.xcassets */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBEB15E1CE18DFD0087D7EA /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalViewController.h; path = Tutoriel1/ModalViewController.h; sourceTree = "<group>"; };
+		0DBEB15F1CE18DFD0087D7EA /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalViewController.m; path = Tutoriel1/ModalViewController.m; sourceTree = "<group>"; };
+		0DBEB1601CE18DFD0087D7EA /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalViewController.xib; path = Tutoriel1/ModalViewController.xib; sourceTree = "<group>"; };
 		0DF1D8B11CD086BE00A87BFF /* Tutoriel1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutoriel1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF1D8B51CD086BE00A87BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DF1D8B71CD086BE00A87BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +88,9 @@
 				0DF1D8CB1CD086E900A87BFF /* MainControllerViewController.h */,
 				0DF1D8CC1CD086E900A87BFF /* MainControllerViewController.m */,
 				0DF1D8CD1CD086E900A87BFF /* MainControllerViewController.xib */,
+				0DBEB15E1CE18DFD0087D7EA /* ModalViewController.h */,
+				0DBEB15F1CE18DFD0087D7EA /* ModalViewController.m */,
+				0DBEB1601CE18DFD0087D7EA /* ModalViewController.xib */,
 			);
 			name = ViewControllers;
 			path = ..;
@@ -145,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBEB1621CE18DFD0087D7EA /* ModalViewController.xib in Resources */,
 				0DF1D8C41CD086BE00A87BFF /* LaunchScreen.storyboard in Resources */,
 				0DF1D8C11CD086BE00A87BFF /* Assets.xcassets in Resources */,
 				0DF1D8CF1CD086E900A87BFF /* MainControllerViewController.xib in Resources */,
@@ -158,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBEB1611CE18DFD0087D7EA /* ModalViewController.m in Sources */,
 				0DF1D8CE1CD086E900A87BFF /* MainControllerViewController.m in Sources */,
 				0DF1D8B91CD086BE00A87BFF /* AppDelegate.m in Sources */,
 				0DF1D8B61CD086BE00A87BFF /* main.m in Sources */,
@@ -299,6 +309,7 @@
 				0DF1D8CA1CD086BF00A87BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

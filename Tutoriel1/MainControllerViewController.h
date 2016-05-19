@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class ModalViewController;
+
 @interface MainControllerViewController : UIViewController
+@property (nonatomic, strong) ModalViewController * pointeurB;
+
+- (void)aChoisiCouleur:(NSString *)couleur;
 
 @end
